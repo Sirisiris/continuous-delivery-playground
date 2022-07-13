@@ -1,10 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test:unit": "jest --ci"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "test:unit": "jest --ci",
+  "deploy:simulate": "../scripts/simulate-deployment.sh"
   },
   "dependencies": {
     "next": "latest",
