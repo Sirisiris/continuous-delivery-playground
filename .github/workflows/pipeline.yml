@@ -2,14 +2,14 @@ name: CI/CD Pipeline
 
 on: push
 
-    env:
+env:
   NODE_VERSION: "14.17"
 
 defaults:
   run:
     working-directory: modern-web-app
 
-  jobs:
+jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
